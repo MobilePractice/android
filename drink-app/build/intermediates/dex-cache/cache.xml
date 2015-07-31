@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mike.roelens/dev/git/mobile/drink-android/drink-app/app/libs/json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="/Users/mike.roelens/dev/git/mobile/drink-android/drink-app/app/build/intermediates/pre-dexed/debug/json-simple-1.1.1-2153d5376d0bd7b5902e28b66493089256af0785.jar" />
+    </item>
+    <item
+        jar="/Users/mike.roelens/dev/git/mobile/drink-android/drink-app/app/libs/javax.json-api-1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0a74939ecbf7294b40accb4048929577f5ddcee2">
+        <dex dex="/Users/mike.roelens/dev/git/mobile/drink-android/drink-app/app/build/intermediates/pre-dexed/debug/javax.json-api-1.0-fc86b230dfa9b4ed74e2be515e87e9ec7c727387.jar" />
+    </item>
+
+</items>

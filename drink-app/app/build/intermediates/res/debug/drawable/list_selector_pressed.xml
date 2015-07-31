@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+    <gradient android:endColor="#31B404" android:startColor="#58FA58" android:angle="90"></gradient>
+
+</shape><!-- From: file:/Users/mike.roelens/dev/git/mobile/drink-android/drink-app/app/src/main/res/drawable/list_selector_pressed.xml -->
