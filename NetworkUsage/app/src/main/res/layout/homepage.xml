@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="#000000"
+        android:padding="5dp"/>
+    <ImageView
+        android:id="@+id/myLocationImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mylocation"
+        android:layout_below="@id/welcome"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/myLocationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_toRightOf="@id/myLocationImage"
+        android:textColor="#8A2908"/>
+    <TextView
+        android:id="@+id/myLocationTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myLocationName"
+        android:layout_toRightOf="@id/myLocationImage"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/myLocationPlaceOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myLocationTime"
+        android:layout_toRightOf="@id/myLocationImage"
+        android:text="@string/place_order"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/otherStores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/other_stores"
+        android:layout_below="@id/myLocationPlaceOrder"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000000"
+        android:padding="5dp"/>
+
+</RelativeLayout>
