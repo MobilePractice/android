@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="winered">#610B0B</color>
+    <color name="lightwinered">#DF0101</color>
+    <color name="desaturatedwinered">#F6CECE</color>
+
+    <color name="primary">#FFFFFF</color>
+    <color name="primaryDark">#000000</color>
+
+    <color name="ripple">#ff80ab</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color>
+
+    <color name="greeting_grey">#e7e8ea</color>
+</resources>
