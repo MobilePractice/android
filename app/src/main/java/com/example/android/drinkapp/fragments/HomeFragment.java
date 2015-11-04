@@ -19,6 +19,8 @@ import java.util.Random;
 
 public class HomeFragment extends Fragment {
     TextView txtGreeting;
+    TextView txtChangeMyStore;
+    TextView txtMyOrders;
     ImageView imgPickMeUp;
 
     public HomeFragment() {
@@ -38,6 +40,12 @@ public class HomeFragment extends Fragment {
 
         txtGreeting = (TextView)view.findViewById(R.id.txtGreeting);
         txtGreeting.setTypeface(Fonts.georgiaItalic(getActivity()));
+
+        txtChangeMyStore = (TextView)view.findViewById(R.id.txtChangeMyStore);
+        txtChangeMyStore.setTypeface(Fonts.georgiaRegular(getActivity()));
+
+        txtMyOrders = (TextView)view.findViewById(R.id.txtMyOrders);
+        txtMyOrders.setTypeface(Fonts.georgiaRegular(getActivity()));
 
         imgPickMeUp = (ImageView)view.findViewById(R.id.imgPickMeUp);
         setRandomPickMeUpImage();

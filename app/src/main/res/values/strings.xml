@@ -66,5 +66,7 @@
         <item>Help</item>
 
     </string-array>
+    <string name="change_my_store">Change My Store</string>
+    <string name="my_orders">My Orders</string>
 
 </resources>
